@@ -26,7 +26,7 @@ scenarios:
   # not be received. Please use prox_heat_acl .. (This generates packets at
   # a specific rate and does not change rate.
   #
-  traffic_profile: prox_heat_acl.yaml
+  traffic_profile: traffic_profiles/prox_heat_acl.yaml
   topology: prox-tg-topology-4.yaml
 
   nodes:
